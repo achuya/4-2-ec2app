@@ -5,7 +5,7 @@ from app.routers import items
 app = FastAPI(
     title="EC2 App API",
     description="EC2デプロイのデモAPI",
-    version="1.0.1"
+    version="1.0.2"
 )
 
 app.add_middleware(
