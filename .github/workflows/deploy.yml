@@ -41,3 +41,5 @@ jobs:
         run: |
           sleep 10
           curl -f http://ec2app-alb-1951011802.ap-northeast-1.elb.amazonaws.com/health
+
+          
