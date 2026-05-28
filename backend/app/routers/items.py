@@ -10,7 +10,7 @@ router = APIRouter(
 )
 
 
-@router.get("/", response_model=list[schemas.ItemResponse])
+@router.get("/", response_model=List[schemas.ItemResponse])
 def get_items(db: Session = Depends(get_db)):
     return db.query(models.Item).all()
 
