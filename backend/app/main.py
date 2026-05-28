@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import items
+from routers import items
 
 app = FastAPI(
     title="EC2 App API",
